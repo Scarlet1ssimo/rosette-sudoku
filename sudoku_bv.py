@@ -1,7 +1,7 @@
 from common import *
 
 
-def emit(Node):
+def emit(Node)      :
     if isinstance(Node, Var):
         return Node.name
     if isinstance(Node, Num):
